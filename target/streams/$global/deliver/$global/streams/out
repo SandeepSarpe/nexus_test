@@ -1,0 +1,4 @@
+[0m[[0minfo[0m] [0m:: delivering :: test#test_2.11;1.0.2-SNAPSHOT :: 1.0.2-SNAPSHOT :: integration :: Mon Jun 27 13:03:00 IST 2016[0m
+[0m[[0mdebug[0m] [0m	options = status=integration pubdate=Mon Jun 27 13:03:00 IST 2016 validate=true resolveDynamicRevisions=true merge=true resolveId=null pubBranch=null[0m
+[0m[[0minfo[0m] [0m	delivering ivy file to /home/synerzip/1Sandeep/1UpToDate/1New_era/1Loven/CI/sbt_test/testproject/target/scala-2.11/ivy-1.0.2-SNAPSHOT.xml[0m
+[0m[[0mdebug[0m] [0m	deliver done (82ms)[0m

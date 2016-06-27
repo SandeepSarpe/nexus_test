@@ -1,0 +1,1 @@
+Index.PACKAGES = {"test" : [{"object" : "test\/test$.html", "name" : "test.test"}]};
