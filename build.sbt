@@ -2,7 +2,7 @@ import sbt.Keys._
 
 name := """test"""
 
-version := "1.0.0.27.1-SNAPSHOT"
+version := sys.env("BUILD_VERSION") //"1.0.0.27.1-SNAPSHOT"
 
 scalaVersion := "2.11.7"
 

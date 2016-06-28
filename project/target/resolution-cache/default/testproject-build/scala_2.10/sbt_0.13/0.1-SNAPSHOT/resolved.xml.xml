@@ -4,7 +4,7 @@
 		module="testproject-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20160624153512"
+		publication="20160628144056"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>
