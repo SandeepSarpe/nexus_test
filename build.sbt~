@@ -2,11 +2,15 @@ import sbt.Keys._
 
 sbtPlugin := true
 
+<<<<<<< HEAD
+version :=  "1.0.0.27.1-SNAPSHOT" // sys.env("BUILD_VERSION") //
+=======
 organization := "org.loven"
 
 name := "test-loven-plugin"
 
 version := "1.0.0.27.1-SNAPSHOT"//  sys.env("BUILD_VERSION") //
+>>>>>>> https://github.com/indrajitr/sbt-scalatools-plugin/blob/master/build.sbt
 
 scalaVersion := "2.11.7"
 
