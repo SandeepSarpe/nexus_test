@@ -18,13 +18,17 @@ publishArtifact in (Compile, packageDoc) := false
 
 publishArtifact in (Compile, packageSrc) := false
 
-val releaseUrl = "releases" at "http://172.25.30.71:8081/content/repositories/releases/"
-
-val snapshotUrl = "snapshots" at "http://172.25.30.71:8081/content/repositories/snapshots/"
 
 
 credentials += Credentials(Path.userHome / ".ivy2" / ".credentials")
 
-publishTo := {
-  if (isSnapshot.value) Some(snapshotUrl) else Some(releaseUrl)
+publishTo <<= (version) { version =>
+  val releaseUrl = "releases" at "http://172.25.30.71:8081/content/repositories/releases/"
+
+  val snapshotUrl = "snapshots" at "http://172.25.30.71:8081/content/repositories/snapshots/"
+  if (version endsWith "-SNAPSHOT") Some(snapshotUrl) else Some(releaseUrl)
 }
+
+/*publishTo := {
+  if (isSnapshot.value) Some(snapshotUrl) else Some(releaseUrl)
+}*/
