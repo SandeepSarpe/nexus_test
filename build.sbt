@@ -6,7 +6,7 @@ organization := "org.loven"
 
 name := "test-loven-plugin"
 
-version := "1.0.0.27.1-SNAPSHOT"//  sys.env("BUILD_VERSION") //
+version := "1.0.0.27.1"//  sys.env("BUILD_VERSION") //
 
 scalaVersion := "2.11.7"
 
